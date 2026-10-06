@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data & generated outputs (may contain patient-level PHI — never commit)
+data/
+outputs/
+*.parquet
+*.tsv
